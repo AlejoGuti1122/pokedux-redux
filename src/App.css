@@ -64,3 +64,51 @@ body {
   .ant-card-cover div {
     background-color: #F2F0FF !important; /* El mismo tono para mantener consistencia */
   }
+
+  /* Estilos base */
+.App {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  /* Responsive para móvil */
+  @media screen and (max-width: 480px) {
+    .App {
+      margin-top: 1rem;
+      padding: 0.5rem;
+    }
+  
+    .App img {
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+  
+    .ant-card {
+      width: 90% !important;
+      margin: 0.5rem auto;
+    }
+  
+    .pokemon-image {
+      padding: 0.5em;
+      height: 150px !important;
+    }
+  
+    .ant-col {
+      padding: 0.5rem;
+    }
+  
+    .ant-input-search {
+      width: 90% !important;
+      margin: 1rem auto;
+    }
+  }
+  
+  /* Tablets */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .ant-card {
+      width: 95% !important;
+    }
+  }
