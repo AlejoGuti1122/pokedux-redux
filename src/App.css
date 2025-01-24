@@ -77,38 +77,37 @@ body {
   /* Responsive para móvil */
   @media screen and (max-width: 480px) {
     .App {
-      margin-top: 1rem;
       padding: 0.5rem;
     }
   
-    .App img {
-      width: 80%;
-      margin-bottom: 1rem;
-    }
-  
-    .ant-card {
-      width: 90% !important;
-      margin: 0.5rem auto;
-    }
-  
-    .pokemon-image {
-      padding: 0.5em;
-      height: 150px !important;
+    .ant-row {
+      width: 100% !important;
+      margin: 0 !important;
     }
   
     .ant-col {
-      padding: 0.5rem;
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+  
+    .ant-card {
+      width: 100% !important;
+      margin: 0.5rem 0;
+    }
+  
+    .ant-card-cover {
+      height: auto !important;
+    }
+  
+    .pokemon-image {
+      height: auto !important;
+      max-height: 150px;
+      width: auto;
     }
   
     .ant-input-search {
-      width: 90% !important;
-      margin: 1rem auto;
-    }
-  }
-  
-  /* Tablets */
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-    .ant-card {
-      width: 95% !important;
+      width: 100% !important;
+      margin: 1rem 0;
     }
   }
